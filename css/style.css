@@ -35,6 +35,10 @@ a {
     display: flex;
 }
 
+.services-menu {
+    display: flex;
+}
+
 .menu-between {
     justify-content: space-between;
 }
@@ -154,6 +158,12 @@ a {
 
 .header-item {
     position: relative;
+}
+
+.toggle-menu {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
 }
 
 .header-item:after {
@@ -288,10 +298,119 @@ a {
     text-transform: uppercase;
 }
 
-.excellence-item span {
+.excellence-text {
     padding: 4rem 1rem;
+}
+
+.customers-container {
+    display: flex;
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.customers-item {
+    padding: 2rem;
+    flex: 0 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #000;
+    border: 3px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
 }
 
 footer {
     margin-top: 200px;
+    background-color: #39322f;
+}
+
+.footer-container {
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #D6CCC9;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.footer-container:nth-child(1) {
+    padding: 2rem 1rem;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.navbar-menu {
+    list-style: none;
+}
+
+.navbar-mobile {
+    display: none;
+    position: relative;
+}
+
+.navbar-list {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    left: 0;
+    background: #fafafa;
+    /* А это работает */
+    background: rgba(236, 239, 240, 0.85);
+    text-align: center;
+    list-style: none;
+}
+
+.navbar-item {
+    margin: 1rem 0;
+
+}
+
+.navbar-menu a {
+    font-weight: 700;
+    color: #D6CCC9;
+    line-height: 2;
+}
+
+.navbar-inner a {
+    font-weight: 100;
+}
+
+.navbar-inner {
+    margin: 0 0 0 1rem;
+    padding: 0.5rem 0;
+    list-style: none;
+}
+
+.footer-title-main {
+    color: white;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+.footer-button {
+    margin: 1rem 0;
+    color: white;
+    font-weight: 700;
+    background: #39322f;
+    border: 1px solid white;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    padding: 0 0.5rem;
+    border-radius: 7px;
+    line-height: 3;
+    cursor: pointer;
+}
+
+.footer-info {
+    color: #D6CCC9;
 }

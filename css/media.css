@@ -1,0 +1,117 @@
+@media screen and (max-width: 1024px) {
+    .services-menu {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .header-services {
+        width: 100%;
+        padding: 0;
+        margin: 0.5rem 0 0 0;
+    }
+    .service-content {
+        padding: 1rem;
+    }
+    .header-item {
+        font-size: 0.8em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 946px) {
+    .footer-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .header-menu {
+        display: none;
+        flex-direction: column;
+    }
+    .active {
+        display: flex;
+    }
+    .toggle-menu {
+        display: block;
+    }
+    .header-contacts {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 712px) {
+    .advantage-item {
+        flex-direction: column;
+    }
+    .excellence-menu {
+        flex-direction: column;
+    }
+    .header-subtitle {
+        font-size: 2rem;
+        width: inherit;
+    }
+    .header-container {
+        padding: 0.5rem 0;
+    }
+    .header-title-main {
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width: 574px) {
+    .title-upper h1 {
+        font-size: 1.2rem;
+    }
+    .excellence-item {
+        max-width: 4rem;
+    }
+    .customers-container {
+        text-align: center;
+    }
+    .customers-item {
+        width: 100%;
+    }
+    .header-content .header-title {
+        text-align: center;
+    }
+    .header-content .header-upper-title {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+    .header-content .header-title-main span {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 454px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    .service-content span {
+        font-size: 1.4rem;
+    }
+    .header-container {
+        justify-content: space-between;
+    }
+    .header-menu {
+        max-width: 75%;
+    }
+    .toggle-menu {
+        max-width: 25%;
+    }
+    .header-services {
+        background-size: 300px 100px;
+    }
+    .excellence-text {
+        font-size: 0.8rem;
+        word-break: break-all;
+    }
+    .excellence-icon {
+        width: 50px;
+    }
+    .excellence-item {
+        max-width: 14rem;
+    }
+}
+
+@media screen and (max-width: 346px) {}
